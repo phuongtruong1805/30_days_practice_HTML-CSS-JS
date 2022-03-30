@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    background: #17a2b8;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert {
+    font-size: 40px;
+    font-weight: bold;
+    background: #fff;
+    color: #17a2b8;
+    padding: 10px 40px;
+    border-radius: 12px;
+}
+
+.result {
+    height: 250px;
+    width: 250px;
+    border: 10px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 200px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #000;
+    font-weight: bold;
+    margin: 80px 20px;
+}
+
+.card p:first-child {
+    background: #78c0c9;
+    color: #fff;
+}
+
+.card p {
+    padding: 10px;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
